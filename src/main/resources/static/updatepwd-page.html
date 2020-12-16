@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<body>
+    <form action="/account/updatePassword" method="post">
+        <table>
+            <tr>
+                <td>username：</td>
+                <td>
+                    <label>
+                        <input type="text" name="username" value=""/>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>current password：</td>
+                <td>
+                    <label>
+                        <input type="password" name="password" value=""/>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>new password：</td>
+                <td>
+                    <label>
+                        <input type="password" name="newPassword" value=""/>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>confirm password：</td>
+                <td>
+                    <label>
+                        <input type="password" name="confirmedPassword" value=""/>
+                    </label>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="login">
+    </form>
+</body>
+</html>
